@@ -15,7 +15,7 @@ body {
   font-size: 14px;
   background-color: var(--main-background-color);
   color: var(--main-text-color);
-  width: 1600px;
+  max-width: 1600px;
 }
 h1,
 h2,
@@ -295,7 +295,7 @@ li {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid var(--border-color);
+  
 }
 .list.product:nth-child(3n){
   margin-right: 0;
@@ -308,14 +308,16 @@ li {
   
   }
 .product-title {
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 4px;
   padding-left: 24px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
+.product-title-card {
+  border: 1px solid var(--border-color);
+}
 .product-title-descr {
   padding-left: 24px;
   font-size: 16px;
