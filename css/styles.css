@@ -13,7 +13,6 @@ body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  background-color: var(--main-background-color);
   color: var(--main-text-color);
   max-width: 1600px;
 }
@@ -111,7 +110,7 @@ li {
   text-align: center;
 }
 .title {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   font-family: inherit;
   font-weight: 900;
   font-size: 44px;
@@ -127,6 +126,7 @@ li {
   cursor: pointer;
 }
 .btn-title {
+  padding: 10px 32px;
   background-color: var(--color-hover-focus);
   font-weight: 700;
   font-size: 16px;
@@ -189,9 +189,7 @@ li {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.our-job-title {
-  padding-top: 0;
-}
+
 .our-job-section {
   display: flex;
 }
@@ -205,7 +203,6 @@ li {
   display: flex;
 }
 .our-comand-worker {
-  padding-bottom: 30px;
   background-color: var(--second-text-color);
 }
 .our-comand-worker:not(:last-child) {
@@ -225,6 +222,7 @@ li {
   text-align: center;
 }
 .our-comand-worker-profession {
+  margin-bottom: 30px;
   color: var(--text-color);
   font-size: 16px;
 }
@@ -241,12 +239,14 @@ li {
 .logo-web {
   color: var(--color-hover-focus);
 }
-
+.footer-item {
+  margin-bottom: 9px;
+}
 .address-footer,
 .contacts-footer {
   display: block;
-  margin-bottom: 9px;
   text-decoration: none;
+  font-style: normal;
   line-height: 1.71;
 }
 .contacts-footer.tel {
@@ -262,9 +262,7 @@ li {
 .contacts-footer:hover {
   color: var(--color-hover-focus);
 }
-.our-product.section {
-  background-color: var(--main-background-color);
-}
+
 .btn-product {
   padding: 6px 22px 6px 22px;
   margin-bottom: 50px;
@@ -275,8 +273,12 @@ li {
   font-weight: 500;
   line-height: 1.62;
 }
-.btn-product:not(:last-child) {
+
+.btn-product {
   margin-right: 8px;
+}
+.btn-product-last {
+  margin-right: 0;
 }
 .btn-product-type {
   display: flex;
@@ -303,18 +305,19 @@ div.our-product:not(:nth-last-child(-n + 3)) {
 }
 .product-title {
   margin-bottom: 4px;
-  padding-left: 24px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .product-title-card {
+  padding-right: 24px;
+  padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: 1px solid var(--border-color);
+  border-top: 0;
 }
 .product-title-descr {
-  padding-left: 24px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--text-color);
