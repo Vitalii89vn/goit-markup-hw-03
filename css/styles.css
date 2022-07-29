@@ -302,7 +302,6 @@ div.our-product:not(:nth-last-child(-n + 3)) {
   background-color: var(--second-text-color);
 }
 .product-title {
-  padding-top: 20px;
   margin-bottom: 4px;
   padding-left: 24px;
   font-size: 18px;
@@ -310,6 +309,8 @@ div.our-product:not(:nth-last-child(-n + 3)) {
   letter-spacing: 0.06em;
 }
 .product-title-card {
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: 1px solid var(--border-color);
 }
 .product-title-descr {
