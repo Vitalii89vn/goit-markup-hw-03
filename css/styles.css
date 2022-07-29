@@ -195,7 +195,7 @@ li {
 .our-job-section {
   display: flex;
 }
-.img:not(:last-child) {
+.img-job:not(:last-child) {
   margin-right: 30px;
 }
 .our-comand {
@@ -287,26 +287,20 @@ li {
   background-color: var(--color-hover-focus);
   color: var(--second-text-color);
 }
-.our-product-item{
+.our-product-item {
   display: flex;
   flex-wrap: wrap;
+  flex-basis: calc((100%-90px) / 3);
 }
-.list.product{
-  width: 370px;
+div.our-product:not(:nth-child(3n)) {
   margin-right: 30px;
+}
+div.our-product:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
-  
-}
-.list.product:nth-child(3n){
-  margin-right: 0;
-}
-.list.product:nth-last-child(-n+3){
-  margin-bottom: 0;
 }
 .product {
-    background-color: var(--second-text-color);
-  
-  }
+  background-color: var(--second-text-color);
+}
 .product-title {
   padding-top: 20px;
   margin-bottom: 4px;
