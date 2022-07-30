@@ -265,7 +265,7 @@ li {
 
 .btn-product {
   padding: 6px 22px 6px 22px;
-  margin-bottom: 50px;
+  margin-right: 8px;
   letter-spacing: 0.03em;
   font-size: 16px;
   background-color: var(--btn-background-color);
@@ -273,16 +273,13 @@ li {
   font-weight: 500;
   line-height: 1.62;
 }
-
-.btn-product {
-  margin-right: 8px;
-}
 .btn-product-last {
   margin-right: 0;
 }
 .btn-product-type {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .btn-product:hover,
 .btn-product:focus {
